@@ -1,24 +1,24 @@
-# README
+🔧 Guide Installation 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+$git clone https://github.com/axelletrt/scrapping_oklm.git
 
-Things you may want to cover:
+$sudo bundle install 
 
-* Ruby version
+$rails db:create
 
-* System dependencies
+$rails server 
 
-* Configuration
 
-* Database creation
+Open localhost 3000
 
-* Database initialization
 
-* How to run the test suite
+:flashlight:
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+
+
+
+
+
+
