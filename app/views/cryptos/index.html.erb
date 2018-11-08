@@ -1,0 +1,36 @@
+<h1>All currencies </h1>
+<%= form_for @crypto do |f| %>
+
+    <div class="field">
+        <%= f.label :currency %><br />
+        <%= f.collection_select :id, Crypto.order(:currency),:id,:currency, {include_blank: false}, {class: "form-control"} %>
+    </div>
+
+    <div>
+        <%= f.submit %></div>
+    </div>
+
+<% end %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

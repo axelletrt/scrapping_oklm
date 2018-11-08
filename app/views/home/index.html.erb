@@ -1,0 +1,17 @@
+<div class="btn-group btn-input clearfix">
+  <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
+    <span data-bind="label">Select a Currency</span> <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+	<% list = Crypto.all %>
+	<% list.each do |hash| %>
+      <li><a href ="home/<%=hash[:id]%>"><%=hash['currency']%></a></li>
+    <% end %>
+  </ul>
+</div>
+
+
+
+
+
+
